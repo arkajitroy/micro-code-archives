@@ -1,0 +1,39 @@
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  z-index: 1000; /* Ensure the overlay is on top of other content */
+}
+
+/* Modal Content */
+.modal-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Drop shadow */
+  z-index: 1001; /* Ensure the content is on top of the overlay */
+}
+
+/* Close Button */
+.modal-content button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff; /* Blue color */
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+/* Close Button Hover State */
+.modal-content button:hover {
+  background-color: #0056b3; /* Darker blue color */
+}

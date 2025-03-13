@@ -1,0 +1,168 @@
+{
+  "electronics": [
+    {
+      "id": "1",
+      "name": "Smartphone",
+      "brand": "Brand A",
+      "price": 699,
+      "features": [
+        "5G",
+        "128GB Storage",
+        "6GB RAM"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Laptop",
+      "brand": "Brand B",
+      "price": 999,
+      "features": [
+        "Intel i7",
+        "16GB RAM",
+        "512GB SSD"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Smartwatch",
+      "brand": "Brand C",
+      "price": 199,
+      "features": [
+        "Heart Rate Monitor",
+        "GPS",
+        "Water Resistant"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Tablet",
+      "brand": "Brand D",
+      "price": 399,
+      "features": [
+        "10-inch Display",
+        "64GB Storage",
+        "8MP Camera"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Headphones",
+      "brand": "Brand E",
+      "price": 149,
+      "features": [
+        "Noise Cancelling",
+        "Bluetooth",
+        "20 Hours Battery"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Camera",
+      "brand": "Brand F",
+      "price": 799,
+      "features": [
+        "24MP",
+        "4K Video",
+        "Wi-Fi"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Smart TV",
+      "brand": "Brand G",
+      "price": 499,
+      "features": [
+        "4K UHD",
+        "HDR",
+        "55-inch"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Game Console",
+      "brand": "Brand H",
+      "price": 299,
+      "features": [
+        "4K Gaming",
+        "500GB Storage",
+        "VR Ready"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Bluetooth Speaker",
+      "brand": "Brand I",
+      "price": 99,
+      "features": [
+        "Portable",
+        "Waterproof",
+        "12 Hours Battery"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Router",
+      "brand": "Brand J",
+      "price": 89,
+      "features": [
+        "Wi-Fi 6",
+        "Dual Band",
+        "4 Gigabit Ports"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Shampoo",
+      "brand": "Brand X",
+      "price": "9.55",
+      "description": "For all hair types, with natural ingredients"
+    },
+    {
+      "id": "4",
+      "name": "Dish Soap",
+      "brand": "Brand W",
+      "price": "4.50",
+      "description": "Lemon scented, tough on grease"
+    },
+    {
+      "id": "5",
+      "name": "Laundry Detergent",
+      "brand": "Brand V",
+      "price": "12.80",
+      "description": "High efficiency, for sensitive skin"
+    },
+    {
+      "id": "7",
+      "name": "Paper Towels",
+      "brand": "Brand T",
+      "price": 5.49,
+      "description": "2-ply, strong and absorbent"
+    },
+    {
+      "id": "8",
+      "name": "Trash Bags",
+      "brand": "Brand S",
+      "price": 6.99,
+      "description": "Heavy duty, 30 gallon capacity"
+    },
+    {
+      "id": "10",
+      "name": "Deodorant",
+      "brand": "Brand Q",
+      "price": 5.99,
+      "description": "24-hour protection, fresh scent"
+    },
+    {
+      "id": "0955",
+      "name": "xiaomi",
+      "price": "900"
+    },
+    {
+      "id": "2c00",
+      "name": "zenfone",
+      "price": "950"
+    }
+  ]
+}

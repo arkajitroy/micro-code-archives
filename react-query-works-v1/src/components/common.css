@@ -1,0 +1,102 @@
+.subheading {
+  margin: 0.8rem 0;
+  color: crimson;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 1rem;
+  margin: 0 1rem;
+  border: 1px solid orange;
+  padding: 1rem 0.5rem;
+  margin-top: 1rem;
+}
+
+.products-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px dashed grey;
+  margin: 1rem 1rem;
+  color: rgb(85, 85, 204);
+}
+
+.product-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(204, 204, 204);
+  padding: 0.5rem;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.edit-btn {
+  background-color: rgb(44, 44, 78);
+  transition: all 0.5s;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: rgb(54, 54, 238);
+  color: white;
+}
+
+.delete-btn {
+  background-color: rgb(146, 1, 1);
+  transition: all 0.5s;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: rgb(253, 15, 15);
+  color: white;
+}
+
+.edit-btn,
+.delete-btn {
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 10rem;
+  cursor: pointer;
+}
+
+.modal-contents {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.modal-contents input {
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.paginated-item-main-container {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px dashed grey;
+  margin: 1rem 1rem;
+  overflow-y: auto;
+}
+
+.paginated-item-main-container .paginated-item-container {
+  display: grid;
+  grid-template-columns: 80% auto;
+  align-items: center;
+  grid-auto-rows: 1fr;
+  padding: 0.5rem;
+  border: 1px dotted teal;
+  margin-bottom: 1rem;
+}
